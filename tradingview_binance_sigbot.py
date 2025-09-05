@@ -52,8 +52,6 @@ TEST_MODE = os.environ.get("TEST_MODE", "0") == "1"
 # ----------------------------------------
 
 # Env vars
-BINANCE_API_KEY = os.environ.get("BINANCE_API_KEY")
-BINANCE_API_SECRET = os.environ.get("BINANCE_API_SECRET")
 TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN")
 TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
 
